@@ -1,0 +1,57 @@
+{
+	"success": "success",
+	"data": {
+		"paths": [
+			{
+				"id": "1",
+				"name": "p1",
+				"structure_id": 1,
+				"waypoints": [
+					{
+						"id": "1",
+						"name": "w1",
+						"x": 5,
+						"y": 6,
+						"z": 6,
+						"angle": 8,
+						"index": 1
+					},
+					{
+						"id": "1",
+						"name": "w1",
+						"x": 5,
+						"y": 6,
+						"z": 6,
+						"angle": 8,
+						"index": 1
+					}
+				]
+			},
+			{
+				"id": "2",
+				"name": "p2",
+				"structure_id": 1,
+				"waypoints": [
+					{
+						"id": "1",
+						"name": "w1",
+						"x": 5,
+						"y": 6,
+						"z": 6,
+						"angle": 8,
+						"index": 1
+					},
+					{
+						"id": "1",
+						"name": "w1",
+						"x": 5,
+						"y": 6,
+						"z": 6,
+						"angle": 8,
+						"index": 1
+					}
+				]
+			}
+		]
+	}
+}

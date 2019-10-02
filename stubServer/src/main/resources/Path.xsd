@@ -1,0 +1,37 @@
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.example.org/Path"
+	xmlns:tns="http://www.example.org/Path" elementFormDefault="qualified">
+
+	<xs:element name="PathDetailsRequest">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="name" type="xs:string" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+
+	<xs:element name="PathDetailsResponse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Path" type="tns:Path" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:complexType name="Path">
+		<xs:sequence>
+			<xs:element name="name" type="xs:string" />
+			<xs:element name="id" type="xs:int" />
+			<xs:element name="structure" type="tns:Structure" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="Structure">
+		<xs:sequence>
+			<xs:element name="name" type="xs:string" />
+			<xs:element name="id" type="xs:int" />
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

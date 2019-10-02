@@ -1,0 +1,221 @@
+{
+	"flightzones": [
+		{
+			"id": 1,
+			"structureId": 1,
+			"firstPoint": {
+				"x": 4.4,
+				"y": 3.9,
+				"z": 6.6
+			},
+			"secondPoint": {
+				"x": 2.9,
+				"y": 2.6,
+				"z": 4.4
+			}
+		},
+		{
+			"id": 2,
+			"structureId": 1,
+			"firstPoint": {
+				"x": 3.1,
+				"y": 5.3,
+				"z": 2
+			},
+			"secondPoint": {
+				"x": 8.9,
+				"y": 6,
+				"z": 9.4
+			}
+		},
+		{
+			"id": 3,
+			"structureId": 1,
+			"firstPoint": {
+				"x": 4.7,
+				"y": 9.7,
+				"z": 6.4
+			},
+			"secondPoint": {
+				"x": 3.3,
+				"y": 3.5,
+				"z": 6
+			}
+		},
+		{
+			"id": 4,
+			"structureId": 1,
+			"firstPoint": {
+				"x": 6.2,
+				"y": 9.7,
+				"z": 7.2
+			},
+			"secondPoint": {
+				"x": 9.4,
+				"y": 9.4,
+				"z": 3.8
+			}
+		},
+		{
+			"id": 5,
+			"structureId": 1,
+			"firstPoint": {
+				"x": 6.1,
+				"y": 5.6,
+				"z": 5.7
+			},
+			"secondPoint": {
+				"x": 6.7,
+				"y": 3.2,
+				"z": 2.9
+			}
+		},
+		{
+			"id": 6,
+			"structureId": 1,
+			"firstPoint": {
+				"x": 0.2,
+				"y": 4.9,
+				"z": 8.4
+			},
+			"secondPoint": {
+				"x": 8.3,
+				"y": 7.5,
+				"z": 9
+			}
+		},
+		{
+			"id": 7,
+			"structureId": 1,
+			"firstPoint": {
+				"x": 2,
+				"y": 4.8,
+				"z": 1.9
+			},
+			"secondPoint": {
+				"x": 9,
+				"y": 5.6,
+				"z": 10
+			}
+		},
+		{
+			"id": 8,
+			"structureId": 1,
+			"firstPoint": {
+				"x": 8,
+				"y": 7,
+				"z": 7.5
+			},
+			"secondPoint": {
+				"x": 8.7,
+				"y": 0.6,
+				"z": 10
+			}
+		},
+		{
+			"id": 9,
+			"structureId": 1,
+			"firstPoint": {
+				"x": 4,
+				"y": 3,
+				"z": 2
+			},
+			"secondPoint": {
+				"x": 7,
+				"y": 0.6,
+				"z": 9.5
+			}
+		}
+	],
+	"structures": [
+		{
+			"id": 1,
+			"areaId": 1,
+			"name": "teststruct"
+		}
+	],
+	"areas": [
+		{
+			"id": 1,
+			"locationId": 1,
+			"length": 10,
+			"width": 10,
+			"originOnMap": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			}
+		}
+	],
+	"paths": [
+		{
+			"id": 1,
+			"name": "testpath",
+			"structureId": 1,
+			"waypoints": [
+				{
+					"id": 1,
+					"pathId": 1,
+					"x": 0.3,
+					"y": 5.6,
+					"z": 3.2,
+					"angle": 0,
+					"index": 0
+				}
+			]
+		},
+		{
+			"pathId": 1,
+			"x": 0.3,
+			"y": 5.6,
+			"z": 3.2,
+			"angle": 0,
+			"index": 0,
+			"id": 2
+		}
+	],
+	"waypoints": [
+		{
+			"id": 1,
+			"pathId": 1,
+			"x": 0.3,
+			"y": 5.6,
+			"z": 3.2,
+			"angle": 0,
+			"index": 0
+		},
+		{
+			"pathId": 1,
+			"x": 0.3,
+			"y": 5.6,
+			"z": 3.2,
+			"angle": 0,
+			"index": 0,
+			"id": 2
+		}
+	],
+	"flightplans": [
+		{
+			"id": 1,
+			"name": "testfp",
+			"startDate": "2019/08/12 13:23:21",
+			"droneId": 1,
+			"pathId": 1,
+			"active": false
+		}
+	],
+	"drones": [
+		{
+			"id": 1,
+			"droneCode": "testdrone",
+			"times_used": 0
+		}
+	],
+	"users": [
+		{
+			"id": 1,
+			"locationId": 1,
+			"token": "token"
+		}
+	]
+}
