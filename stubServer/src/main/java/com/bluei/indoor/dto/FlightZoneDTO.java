@@ -3,6 +3,7 @@ package com.bluei.indoor.dto;
 import com.bluei.indoor.entities.FlightZone;
 import com.bluei.indoor.entities.MapPosition;
 
+
 public class FlightZoneDTO {
 	private int id;
     private MapPosition firstPoint ;

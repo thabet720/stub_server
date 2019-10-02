@@ -7,8 +7,10 @@ import org.springframework.stereotype.Service;
 
 import com.bluei.indoor.entities.Waypoint;
 import com.bluei.indoor.repository.WaypointRepository;
+
 @Service
 public class WaypointService {
+	
 	private final WaypointRepository repo ;
 
 	public WaypointService(WaypointRepository repo) {

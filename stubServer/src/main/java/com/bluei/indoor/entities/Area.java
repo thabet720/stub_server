@@ -64,6 +64,7 @@ public class Area {
 	public MapPosition getOriginOnMap() {
 		return originOnMap;
 	}
+	
 	public void setOriginOnMap(MapPosition originOnMap) {
 		this.originOnMap = originOnMap;
 	}

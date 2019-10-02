@@ -9,6 +9,7 @@ import com.bluei.indoor.entities.Path;
 import com.bluei.indoor.entities.Waypoint;
 import com.bluei.indoor.repository.PathRepository;
 
+
 @Service
 public class PathService {
 

@@ -15,6 +15,7 @@ import com.bluei.indoor.dto.MultipleObjectDTO;
 import com.bluei.indoor.dto.StructureDTO;
 import com.bluei.indoor.service.StructureService;
 
+
 @RestController
 @RequestMapping("/backend/1/structures")
 public class StructureController {

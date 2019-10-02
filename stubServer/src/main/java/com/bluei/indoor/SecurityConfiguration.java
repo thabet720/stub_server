@@ -31,6 +31,7 @@ import com.bluei.indoor.repository.UserRepository;
 
 import jersey.repackaged.com.google.common.collect.ImmutableList;
 
+
 @Configuration
 @EnableWebSecurity
 @EnableJpaRepositories(basePackageClasses = UserRepository.class)

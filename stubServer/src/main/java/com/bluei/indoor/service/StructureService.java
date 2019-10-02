@@ -11,10 +11,11 @@ import com.bluei.indoor.entities.Structure;
 import com.bluei.indoor.repository.AreaRepository;
 import com.bluei.indoor.repository.StructureRepository;
 
+
 @Service
 public class StructureService {
-	private final StructureRepository repo;
 
+	private final StructureRepository repo;
 
 	
 	public StructureService(StructureRepository repo, AreaRepository areaRepository) {

@@ -15,6 +15,7 @@ import com.bluei.indoor.dto.MultipleObjectDTO;
 import com.bluei.indoor.entities.FlightPlan;
 import com.bluei.indoor.service.FlightPlanService;
 
+
 @RestController
 @RequestMapping("/backend/1/flightPlans")
 public class FlightPlanController {

@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 import com.bluei.indoor.entities.FlightPlan;
 import com.bluei.indoor.repository.FlightPlanRepository;
 
+
 @Service
 public class FlightPlanService {
 	

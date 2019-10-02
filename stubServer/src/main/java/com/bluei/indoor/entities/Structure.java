@@ -34,6 +34,7 @@ public class Structure {
 	public Structure() {
 		super();
 	}
+	
 	public Structure(StructureDTO dto) {
 		super();
 		flightZones = new ArrayList<FlightZone>();

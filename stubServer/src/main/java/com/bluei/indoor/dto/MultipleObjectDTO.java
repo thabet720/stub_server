@@ -19,6 +19,7 @@ public class MultipleObjectDTO {
 		super();
 		data = new HashMap<String, Object>();
 	}
+	
 	public String getResult() {
 		return result;
 	}

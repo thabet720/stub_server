@@ -15,6 +15,7 @@ import com.bluei.indoor.dto.MultipleObjectDTO;
 import com.bluei.indoor.entities.Path;
 import com.bluei.indoor.service.PathService;
 
+
 @RestController
 @RequestMapping("/backend/1/paths")
 public class PathController {

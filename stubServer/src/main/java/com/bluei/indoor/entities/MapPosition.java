@@ -11,7 +11,6 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Entity
 public class MapPosition {
-
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;

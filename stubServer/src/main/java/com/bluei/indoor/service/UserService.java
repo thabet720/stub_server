@@ -18,6 +18,7 @@ import com.bluei.indoor.repository.UserRepository;
 
 @Service(value = "userService")
 public class UserService implements UserDetailsService {
+	
 	@Autowired
 	private UserRepository repo;
 

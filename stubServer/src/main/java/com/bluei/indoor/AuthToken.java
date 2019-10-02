@@ -2,6 +2,7 @@ package com.bluei.indoor;
 
 import com.bluei.indoor.entities.User;
 
+
 public class AuthToken {
 
     private String token;

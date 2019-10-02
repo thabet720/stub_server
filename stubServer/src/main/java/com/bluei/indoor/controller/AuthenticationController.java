@@ -16,6 +16,7 @@ import com.bluei.indoor.AuthToken;
 import com.bluei.indoor.JwtTokenUtil;
 import com.bluei.indoor.entities.User;
 import com.bluei.indoor.service.UserService;
+
 @RestController
 public class AuthenticationController {
 	 @Autowired

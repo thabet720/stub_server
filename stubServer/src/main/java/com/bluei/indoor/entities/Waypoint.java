@@ -24,7 +24,6 @@ public class Waypoint {
     @JsonIgnore
     private Path trajectory;
 
-
     public Waypoint() {
     }
 

@@ -17,6 +17,7 @@ import com.bluei.indoor.dto.MultipleObjectDTO;
 import com.bluei.indoor.entities.Drone;
 import com.bluei.indoor.service.DroneService;
 
+
 @CrossOrigin
 @RestController
 @RequestMapping("/backend/1/drones")

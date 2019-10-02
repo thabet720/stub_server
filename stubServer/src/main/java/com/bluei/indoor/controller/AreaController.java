@@ -13,8 +13,6 @@ import com.bluei.indoor.dto.MultipleObjectDTO;
 import com.bluei.indoor.service.AreaService;
 
 
-
-
 @CrossOrigin
 @RestController
 @RequestMapping("/backend/1/areas")

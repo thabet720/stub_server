@@ -17,6 +17,7 @@ public class StructureDTO {
 	public StructureDTO() {
 		super();
 	}
+	
 	public StructureDTO(Structure structure) {
 		super();
 		flightZones= new ArrayList<FlightZoneDTO>();

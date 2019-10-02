@@ -1,5 +1,6 @@
 package com.bluei.indoor.dto;
 
+
 public class ErrorDTO {
 	private int code;
 	private String message;

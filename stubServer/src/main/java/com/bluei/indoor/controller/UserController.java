@@ -15,6 +15,7 @@ import com.bluei.indoor.dto.ErrorDTO;
 import com.bluei.indoor.dto.MultipleObjectDTO;
 import com.bluei.indoor.entities.User;
 import com.bluei.indoor.service.UserService;
+
 @CrossOrigin
 @RestController
 @RequestMapping("/backend/1/users")

@@ -23,6 +23,7 @@ public class FlightZone {
 	@JsonIgnore
 	@ManyToOne
 	private Structure structure;
+	
 	public FlightZone() {
 		super();
 	}

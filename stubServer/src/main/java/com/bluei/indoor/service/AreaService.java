@@ -19,7 +19,7 @@ public class AreaService {
 	}
 	
 	public void insertArea(Area area) {
-		repo.save(area);
+		 repo.save(area);
 	}
 	
 	public void deleteArea(int id) {
