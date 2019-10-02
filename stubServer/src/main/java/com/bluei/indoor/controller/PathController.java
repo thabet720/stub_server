@@ -56,7 +56,6 @@ public class PathController {
 	}
 	@PutMapping("/")
 	public MultipleObjectDTO updateDrone(@RequestBody  Path path) {
-		System.out.println(path);
 		service.insertPath(path);
 		MultipleObjectDTO dto = new MultipleObjectDTO();
 		dto.setResult("success");
